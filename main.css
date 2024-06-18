@@ -1,0 +1,65 @@
+:root {
+  --bg-color:#282C34;
+  --fg-color:#8691A3;
+  --fg-color-bright:#A8B3C5;
+  --green-color:#3FC555;
+  --yellow-color:#f6d525;
+  --red-color:#FF6480;
+  --purple-color:#AF8EFF;
+  --blue-color:#10B1FE;
+  --blueDark-color:#0661CC;
+  --grey3-color:#2d333e;
+  --grey5-color:#333a48;
+  --grey7-color:#384252;
+  --grey20-color:#4a5a73;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+textarea { 
+  width: 95%;
+  font-family: "DejaVu Sans Mono", sans-serif;
+  font-size:12pt;
+  padding-left: 1em;
+  background-color:var(--grey5-color);
+  color: var(--blue-color);
+  border-radius:10px;
+  white-space: pre;
+}
+
+select {
+  background-color:var(--grey7-color);
+  margin:1em;
+  color: var(--fg-color-bright);
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 2px;
+}
+
+#progInput {
+  height:90%;
+}
+
+#runButton {
+  width:5em;
+  height: 5em;
+  background-color : var(--blueDark-color);
+  color : var(--yellow-color);
+  border-radius:2px;
+  border: none;
+}
+
+.boldText {
+  font-weight:bold
+}
+
+.evalSucc {
+  color:var(--green-color); 
+}
+
+.evalError {
+  color: var(--red-color); 
+}
